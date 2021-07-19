@@ -93,14 +93,14 @@
         }
     }
     .move_on{
-        position: center;
-        /*justify-content: flex-end;*/
+        display:flex;
+        justify-content: flex-end;
     }
     .login_form{
         position: absolute;
         bottom:0;
         width: 100%;
-        padding: 100px 100px;
+        padding: 0 20px;
         box-sizing: border-box;
     }
 

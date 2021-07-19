@@ -1,0 +1,20 @@
+// import Mock from 'mock.js'
+//
+// Mock.mock('/api/userList','get',{
+//     status:[200],
+//     message:'获取用户列表成功！',
+//     'data|5-10':[{
+//         id:'@increment(1)',
+//         name:'@cword(2,8)',
+//         code:'@natural(1000,1000000)',
+//         roles:'@cword(2,8)'
+//     }]
+// })
+//
+// Mock.mock('/api/addUser','post',function (option) {
+//     console.log(option)
+//     return Mock.mock ({
+//         status:200,
+//         message:'@cword(2,5)'
+//     })
+// })
